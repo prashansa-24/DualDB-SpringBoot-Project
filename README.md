@@ -72,10 +72,6 @@ Global JPA settings are also defined there, including:
 - schema update mode
 - SQL logging
 
-## Important Security Note
-
-The current `application.properties` contains live database connection settings. For local development or shared repositories, move sensitive values such as database passwords out of source control and provide them through environment variables, external configuration, or a local profile-specific properties file.
-
 ## API Endpoints
 
 Base path:
